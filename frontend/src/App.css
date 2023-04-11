@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo {
+ text-decoration: none;
+ color: yellow;
+ margin: 40px;
+}
+.logo:hover{
+  color: yellowgreen;
+  cursor: pointer;
+}
+.NavBar{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  text-decoration: none;
+}
+.menubar ul li{
+  list-style:none;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: yellowgreen;
+}
+.menubar ul li:hover{
+  background-color: yellow;
+  color: yellowgreen;
+}
+.navlinks{
+  text-decoration: none;
+  color: yellow;
+
+}
+/* .menubar .active{
+  background-color: aqua;
+  color: red;
+} */
+.navlinks:hover{
+  color: yellowgreen;
+}
